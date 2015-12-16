@@ -1,0 +1,521 @@
+html, body {
+    margin-top: 20px;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Casablanca URW", "Fira Sans" sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Casablanca URW", "Fira sans", sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: "Casablanca URW", "Fira sans", sans-serif;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+p {
+    font-family: "Fira Mono OT", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    
+}
+
+#main_container {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+#main_container header {
+    height: 520px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 25%;
+    height: 275px;
+    background: url(../images/logo.png)no-repeat;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    margin-left: 18%;
+    margin-top: 100px;
+    background-color: white;
+    float: left;
+    text-align: left;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    padding: 12px 20px;
+    margin: 0 5%;
+    font-size: 1em;
+    font-family: "Casablanca URW", "Fira sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+nav li a:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+nav li a:active {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.title h3 {
+    margin-left: 38%;
+    border-bottom: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    width: 22%;
+}
+
+.about {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.about a {
+    font-family: "Fira Mono OT", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+/*Project Modules*/
+
+.project {
+    margin-left: 31%;
+}
+
+.journey {
+    margin-bottom: 20px;
+}
+
+.journey a::before {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    ~webkit-transition: opacity 0.3s;
+    ~moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;   
+}
+
+.journey a::before {
+    content: attr(data-title);
+    top: 0;
+    height: 175px;
+    width: 390px;
+    background: black;
+    font-family: "Casablanca URW", "Fira Sans" sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 620px;
+}
+
+
+.journey a:hover::before {
+    opacity: .4;
+}
+
+.element {
+    margin-bottom: 20px;
+}
+
+.element a::before {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    ~webkit-transition: opacity 0.3s;
+    ~moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;   
+}
+
+.element a::before {
+    content: attr(data-title);
+    top: 0;
+    height: 175px;
+    width: 390px;
+    background: black;
+    font-family: "Casablanca URW", "Fira Sans" sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 860px;
+}
+
+
+.element a:hover::before {
+    opacity: .4;
+}
+
+.abroad {
+    margin-bottom: 20px;
+}
+
+.abroad a::before {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    ~webkit-transition: opacity 0.3s;
+    ~moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;   
+}
+
+.abroad a::before {
+    content: attr(data-title);
+    top: 0;
+    height: 175px;
+    width: 390px;
+    background: black;
+    font-family: "Casablanca URW", "Fira Sans" sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 1100px;
+}
+
+
+.abroad a:hover::before {
+    opacity: .4;
+}
+
+
+.momotaro {
+    margin-bottom: 20px;
+}
+
+.momotaro a::before {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    ~webkit-transition: opacity 0.3s;
+    ~moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;   
+}
+
+.momotaro a::before {
+    content: attr(data-title);
+    top: 0;
+    height: 175px;
+    width: 390px;
+    background: black;
+    font-family: "Casablanca URW", "Fira Sans" sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 1340px;
+}
+
+
+.momotaro a:hover::before {
+    opacity: .4;
+}
+
+.calendar {
+    margin-bottom: 20px;
+}
+
+.calendar a::before {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    ~webkit-transition: opacity 0.3s;
+    ~moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;   
+}
+
+.calendar a::before {
+    content: attr(data-title);
+    top: 0;
+    height: 175px;
+    width: 390px;
+    background: black;
+    font-family: "Casablanca URW", "Fira Sans" sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 1580px;
+}
+
+
+.calendar a:hover::before {
+    opacity: .4;
+}
+
+.dfs {
+    margin-bottom: 20px;
+}
+
+.dfs a::before {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    ~webkit-transition: opacity 0.3s;
+    ~moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;   
+}
+
+.dfs a::before {
+    content: attr(data-title);
+    top: 0;
+    height: 175px;
+    width: 390px;
+    background: black;
+    font-family: "Casablanca URW", "Fira Sans" sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 1817px;
+}
+
+
+.dfs a:hover::before {
+    opacity: .4;
+}
+
+.pool {
+    margin-bottom: 20px;
+}
+
+.pool a::before {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    ~webkit-transition: opacity 0.3s;
+    ~moz-transition: opacity 0.3s;
+    transition: opacity 0.3s;   
+    
+}
+
+.pool a::before {
+    content: attr(data-title);
+    top: 0;
+    height: 175px;
+    width: 390px;
+    background: black;
+    font-family: "Casablanca URW", "Fira Sans" sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 2055px;
+}
+
+
+.pool a:hover::before {
+    opacity: .4;
+}
+
+/*Content*/
+
+.content {
+    margin-left: 30%;
+    width: 50%;
+}
+
+.content img {
+    padding: 30px 3px;
+    display: inline-block;
+}
+
+.content p {
+    width: 86%;
+}
+
+
+
+.next {
+    margin-left:75%;
+    margin-top: 50px;
+    height: 50px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-top: 1px;
+    text-decoration: none;
+}
+
+/* Contact Form */
+
+.wrapper {
+    margin-left: 35%;
+}
+
+#contact-form input[type="email"],
+#contact-form input[type="text"],
+#contact-form textarea,
+#contact-form button[type="submit"] {
+    font-family: "Fira Mono OT", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+#contact-form {
+    text-shadow: 0 1px 0 #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 0px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 35%;
+    box-shadow: inset 0 1px 2px #DDD, 0 1px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 2px #ddd, 0 1px 0 #fff;
+    -moz_box-shadow: inset 0 1px 2px #ddd, 0 1px 0 #fff;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+    barder-radius: 5px;
+}
+
+#contact-form textarea {
+    height: 150px;
+    max-height: 100%;
+}
+
+#contact-form button {
+    background-color: black;
+    color: white;
+    margin-left: 12%;
+    width: 15%;
+}
+
+#contact-form button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+footer {
+    font-family: "Fira Mono OT", sans-serif;
+    font-size: 0.6em;
+    color: white;
+    clear: both;
+    background: #000;
+    height: 12px;
+    padding: 10px 6%;
+    margin-top: 200px;
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 1000px) {
+ 
+    #logo {
+    background: url(../images/logo%202.png)no-repeat;
+    height: 125px;
+    padding: 0;
+}
+    #main_container header {
+    height: 320px;
+    }
+    
+    nav {
+        margin-left: 0%;
+    }
+    
+    nav li a {
+    padding: 6px 10px;
+    }
+    
+    .project {
+        margin-left: 6%;
+    }
+    
+    .title h3 {
+    margin-left: 25%;
+        width:48%;
+}
+
+    .journey a::before {
+        margin-top: 420px;
+    }
+    
+    .element a::before {
+        margin-top: 660px;
+    }
+    
+    .abroad a::before {
+        margin-top: 898px;
+    }
+    
+    .momotaro a::before {
+        margin-top: 1138px;
+    }
+    
+    .calendar a::before {
+        margin-top: 1378px;
+    }
+    
+    .dfs a::before {
+        margin-top: 1617px;
+    }
+    
+    .pool a::before {
+        margin-top: 1855px;
+    }
+    
+    .content {
+    margin-left: 5%;
+    width: 100%;
+}
+
+    .next {
+    margin-left:50%;
+    margin-top: 50px;
+    height: 50px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-top: 1px;
+    text-decoration: none;
+}
