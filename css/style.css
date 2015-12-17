@@ -43,10 +43,9 @@ p {
 }
 
 #logo {
-    width: 25%;
     height: 275px;
     background: url(../images/logo.png)no-repeat;
-    margin: auto;
+    margin-left: 38.5%;
 }
 
 nav {
@@ -64,7 +63,7 @@ nav li {
 }
 
 nav li a {
-    padding: 12px 20px;
+    padding: 1% 2%;
     margin: 0 5%;
     font-size: 1em;
     font-family: "Casablanca URW", "Fira sans", sans-serif;
@@ -87,12 +86,12 @@ nav li a:active {
     border-style: solid;
 }
 
-.title h3 {
+.title {
     margin-left: 38%;
-    border-bottom: 2px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
-    width: 22%;
+}
+
+.title h3 {
+    width:100%;
 }
 
 .about {
@@ -139,7 +138,7 @@ nav li a:active {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 620px;
+    margin-top: 640px;
 }
 
 
@@ -172,7 +171,7 @@ nav li a:active {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 860px;
+    margin-top: 880px;
 }
 
 
@@ -205,7 +204,7 @@ nav li a:active {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 1100px;
+    margin-top: 1120px;
 }
 
 
@@ -239,7 +238,7 @@ nav li a:active {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 1340px;
+    margin-top: 1360px;
 }
 
 
@@ -272,7 +271,7 @@ nav li a:active {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 1580px;
+    margin-top: 1600px;
 }
 
 
@@ -305,7 +304,7 @@ nav li a:active {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 1817px;
+    margin-top: 1837px;
 }
 
 
@@ -339,7 +338,7 @@ nav li a:active {
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 3px;
-    margin-top: 2055px;
+    margin-top: 2075px;
 }
 
 
@@ -447,16 +446,15 @@ footer {
     
 }
 
-@media screen and (max-width: 1000px) {
- 
-    #logo {
-    background: url(../images/logo%202.png)no-repeat;
-    height: 125px;
-    padding: 0;
-}
+@media screen and (max-width: 768px) {
+
     #main_container header {
     height: 320px;
     }
+    
+    #logo {
+        margin-left: 22%;
+    } 
     
     nav {
         margin-left: 0%;
@@ -470,37 +468,43 @@ footer {
         margin-left: 6%;
     }
     
+    .title {
+        clear: both;
+        float: left;
+        margin-top: 30px;
+        margin-left:21%;
+    }
+    
     .title h3 {
-    margin-left: 25%;
-        width:48%;
+    width:100%;
 }
 
     .journey a::before {
-        margin-top: 420px;
+        margin-top: 555px;
     }
     
     .element a::before {
-        margin-top: 660px;
+        margin-top: 795px;
     }
     
     .abroad a::before {
-        margin-top: 898px;
+        margin-top: 1033px;
     }
     
     .momotaro a::before {
-        margin-top: 1138px;
+        margin-top: 1273px;
     }
     
     .calendar a::before {
-        margin-top: 1378px;
+        margin-top: 1513px;
     }
     
     .dfs a::before {
-        margin-top: 1617px;
+        margin-top: 1752px;
     }
     
     .pool a::before {
-        margin-top: 1855px;
+        margin-top: 1990px;
     }
     
     .content {
@@ -509,13 +513,50 @@ footer {
 }
 
     .next {
-    margin-left:50%;
-    margin-top: 50px;
+    margin-left:30%;
+    margin-top: 60px;
     height: 50px;
-    width: 25%;
+    width: 45%;
     background-color: black;
     color: white;
     padding-left: 15px;
     padding-top: 1px;
     text-decoration: none;
+}
+    
+    .about {
+        margin-left: 5%;
+        width: 88%;
+        clear: both;
+    }
+    
+    .wrapper {
+        margin-left: 15%;
+        margin-top: 25px;
+        clear: both;
+        float: left;
+    }
+    
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+    #contact-form textarea {
+    width: 90%;
+    }
+    
+    #contact-form textarea{
+        height: 150px;
+    }
+
+    #contact-form button {
+    background-color: black;
+    color: white;
+    margin-left: 38%;
+    width: 21%;
+    }
+    
+    footer {
+        clear: both;
+        float: left;
+    }
+
 }
